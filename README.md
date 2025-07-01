@@ -44,26 +44,3 @@ padEnd(str) — appends a string to the end
 padStart(str) — prepends a string to the start
 
 padBoth(str) — adds a string both at the start and the end
-
-**
-// Customer example
-customer.setDiscount(0.15);
-console.log(customer.getDiscount()); // 0.15
-customer.addOrder(5000, "Steak");
-console.log(customer.getBalance()); // 19750
-console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
-
-// Storage example
-const storage = new Storage(["Nanitoids", "Prolonger", "Antigravitator"]);
-storage.addItem("Droid");
-storage.removeItem("Prolonger");
-console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
-
-// StringBuilder example
-const builder = new StringBuilder(".");
-builder.padStart("^");
-builder.padEnd("^");
-builder.padBoth("=");
-console.log(builder.getValue()); // "=^.^="
-
-**
