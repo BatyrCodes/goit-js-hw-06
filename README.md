@@ -45,7 +45,7 @@ padStart(str) — prepends a string to the start
 
 padBoth(str) — adds a string both at the start and the end
 
-
+..
 // Customer example
 customer.setDiscount(0.15);
 console.log(customer.getDiscount()); // 0.15
@@ -65,3 +65,5 @@ builder.padStart("^");
 builder.padEnd("^");
 builder.padBoth("=");
 console.log(builder.getValue()); // "=^.^="
+
+..
